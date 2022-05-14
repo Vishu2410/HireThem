@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" style="-fx-background-color: #d9d9d9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hackathon.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="70.0" prefWidth="750.0" style="-fx-background-color: #366b50;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="71.0" layoutX="665.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="185.0" layoutY="7.0" prefHeight="56.0" prefWidth="396.0" text="Welcome To Hire-Them" textFill="#f8f8f8f5">
+               <font>
+                  <Font name="Cambria Bold Italic" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="72.0" prefHeight="600.0" prefWidth="41.0" style="-fx-background-color: #366b50;" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="1.0" prefHeight="600.0" prefWidth="55.0" style="-fx-background-color: #366b50;">
+               <children>
+                  <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@menu.jpg" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink fx:id="menu" layoutX="6.0" layoutY="11.0" onAction="#handleButtonAction" prefHeight="36.0" prefWidth="43.0" />
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="6.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="376.26351165771484" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="90.0">
+                     <image>
+                        <Image url="@bookings.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="6.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="132.0">
+                     <image>
+                        <Image url="@services.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="4.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="178.0">
+                     <image>
+                        <Image url="@future.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="6.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="219.0">
+                     <image>
+                        <Image url="@setting.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="4.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0" AnchorPane.topAnchor="263.0">
+                     <image>
+                        <Image url="@help.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" layoutX="15.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="4.0">
+                     <image>
+                        <Image url="@logout.jpg" />
+                     </image>
+                  </ImageView>
+                  <Hyperlink fx:id="bookings1" layoutX="4.0" layoutY="91.0" onAction="#handleButtonAction" prefHeight="36.0" prefWidth="43.0" />
+                  <Hyperlink fx:id="services1" layoutX="6.0" layoutY="132.0" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="43.0" />
+                  <Hyperlink fx:id="future1" layoutX="4.0" layoutY="178.0" onAction="#handleButtonAction" prefHeight="36.0" prefWidth="43.0" />
+                  <Hyperlink fx:id="setting1" layoutX="4.0" layoutY="221.0" onAction="#handleButtonAction" prefHeight="36.0" prefWidth="43.0" />
+                  <Hyperlink fx:id="help1" layoutX="4.0" layoutY="264.0" onAction="#handleButtonAction" prefHeight="36.0" prefWidth="43.0" />
+                  <Hyperlink fx:id="logout1" layoutX="4.0" layoutY="302.0" onAction="#handleButtonAction" prefHeight="30.0" prefWidth="43.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="Booknow" layoutX="104.0" layoutY="489.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="71.0" prefWidth="614.0" style="-fx-background-color: #366b50;" text="Book Now" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="147.0" fitWidth="167.0" layoutX="74.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ramesh.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="BASELINE_LEFT" layoutX="261.0" layoutY="138.0" prefHeight="307.0" prefWidth="457.0" style="-fx-background-color: #366b50;" textFill="#f8f8f8f5">
+         <font>
+            <Font name="Cambria Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age: 28" wrappingWidth="199.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email: Rameshgarg57@gmail.com" wrappingWidth="317.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact No. : 9304895661" wrappingWidth="249.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name: Ramesh Garg" wrappingWidth="199.13671351969242">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City: Delhi" wrappingWidth="199.13671351969242">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f8f8" layoutX="287.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Field: Carpenter( 3 years of experience)" wrappingWidth="361.1367135196924">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
